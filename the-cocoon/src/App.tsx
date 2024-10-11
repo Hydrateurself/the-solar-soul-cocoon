@@ -76,7 +76,7 @@ function App() {
             </div>
             <a
               className="flex justify-center mb-1"
-              href="/public/Music/a-fairytale-of-the-unknown_master.wav"
+              href="Music/a-fairytale-of-the-unknown_master.wav"
             >
               <button className="text-white font-ibm rounded-full border-2 border-white px-6 py-2 m-2">
                 Download
