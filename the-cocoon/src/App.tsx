@@ -4,45 +4,73 @@ function App() {
   return (
     <>
       <div className="bg-black h-auto w-full flex flex-col items-center">
-        <h1 className="text-white flex h-auto w-auto p-4">
+        <h1 className="text-white flex h-auto w-auto p-4 font-ultra text-2xl text-center md:text-4xl">
           The Solar Soul Cocoon
         </h1>
-        <div className="flex flex-col p-4">
-          <p className="flex text-white p-4 text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-            ducimus deleniti odit! Minima provident dolore omnis repellendus
-            nesciunt mollitia praesentium debitis officia delectus ipsa, fugit
-            voluptates pariatur, saepe velit? Consequatur numquam qui animi
-            ipsum architecto saepe optio voluptatibus! Accusamus impedit eveniet
-            doloremque? Vel laboriosam saepe quam voluptatem, vero porro beatae?
-          </p>
-          <img
-            src="/public/Cover-2.jpg"
-            alt="Cover of the EP. A Robot and the name of the band"
-            className="flex"
-          />
-          <div>
-            <h3 className="text-white">Go listen to it</h3>
-            <button>Spotify</button>
-            <button>Apple Music</button>
+        <div className="flex flex-col md:flex-row">
+          <div className="flex flex-col p-4">
+            <p className="flex text-white p-2 text-left font-ibm md:max-w-lg mb-1">
+              It happend! The Cocoon has successfully landed and is again ready
+              to launch into space. The journey goes on as live goes by. <br />
+              Sharing is caring and so will The Cocoon share his music with the
+              world now. It's as free as it can be and so you can do with it
+              whatever you want. Special thanks goes out to my fellow soul
+              Stefan for recording sick guitar on song No. 4. Everything else
+              was recorded and mixed by The Cocoon itself. With love from space,
+              <br />
+              Sincerly The Cocoon
+            </p>
+            <img
+              src="/public/Cover-2.jpg"
+              alt="Cover of the EP. A Robot and the name of the band"
+              className="flex min-w-80 md:max-w-lg"
+            />
+            <div>
+              <h3 className="text-white font-ibm flex justify-center p-4">
+                Go listen to it
+              </h3>
+              <div className="flex justify-around">
+                <button className="text-white rounded-full border-2 border-white px-6 py-2">
+                  Spotify
+                </button>
+                <button className="text-white rounded-full border-2 border-white px-6 py-2">
+                  Apple Music
+                </button>
+              </div>
+            </div>
           </div>
-        </div>
-        <div className="flex flex-col p-4">
-          <p className="flex text-white p-4 text-center">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
-            repudiandae fugiat unde saepe nemo ab ad necessitatibus corporis
-            esse minus commodi ipsum rem officia dicta maiores dolorem expedita
-            ratione eius, eaque magni nobis eos ipsam. Libero rerum provident
-            dicta. Enim labore sed temporibus provident consequatur, assumenda
-            fuga laborum nam aut!
-          </p>
-          <img
-            src="/public/poly.png"
-            alt="Cover of the EP. A Robot and the name of the band"
-            className="flex"
-          />
-          <h2 className="text-white">LISTEN</h2>
-          <p className="text-white">Download the song</p>
+          <div className="flex flex-col p-4">
+            <p className="flex text-white p-2 text-left font-ibm md:max-w-lg mb-1">
+              This one is for YOU! You weirdo, you freak. I want to thank you
+              for vibing with me in front of the stage and slipping on the
+              drippiest drip mankind could imagine. <br />
+              This song is not available on streaming cause we keeping it down
+              under you know. You can download it for free here and do with it
+              whatever you want. This piece of music is not ment for commercial
+              use. It's a hommage to YOU and to the music of King Gizz. <br />
+              Thank you Gizzy's , see you next time. <br />
+              With Love, The Cocoon
+            </p>
+            <img
+              src="/public/poly.png"
+              alt="Cover of the EP. A Robot and the name of the band"
+              className="flex md:max-w-lg"
+            />
+            <h2 className="text-white font-ibm text-center p-4">
+              A Fairytale Of The Unknown
+            </h2>
+            <audio controls>
+              <source src="/public/Music/a-fairytale-of-the-unknown_master.wav" />
+            </audio>
+            <a
+              className="flex justify-center mb-1"
+              href="/public/Music/a-fairytale-of-the-unknown_master.wav"
+            >
+              <button className="text-white font-ibm rounded-full border-2 border-white px-6 py-2">
+                Download
+              </button>
+            </a>
+          </div>
         </div>
       </div>
     </>

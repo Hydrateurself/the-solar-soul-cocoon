@@ -2,7 +2,12 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        ultra: ["Ultra", "serif"],
+        ibm: ["IBM Plex Mono", "monospace"],
+      },
+    },
   },
   plugins: [],
 };
