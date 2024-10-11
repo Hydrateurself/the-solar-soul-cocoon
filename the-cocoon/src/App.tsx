@@ -21,7 +21,7 @@ function App() {
               Sincerly The Cocoon &lt;3
             </p>
             <img
-              src="/public/Cover-2.jpg"
+              src="Cover-2.jpg"
               alt="Cover of the EP. A Robot and the name of the band"
               className="flex min-w-80 md:max-w-lg md:justify-evenly"
             />
@@ -62,7 +62,7 @@ function App() {
               With Love, The Cocoon &lt;3
             </p>
             <img
-              src="/public/poly.png"
+              src="poly.png"
               alt="Cover of the EP. A Robot and the name of the band"
               className="flex md:max-w-lg"
             />
