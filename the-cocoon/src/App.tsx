@@ -70,7 +70,7 @@ function App() {
               A Fairytale Of The Unknown
             </h2>
             <audio controls>
-              <source src="a-fairytale-of-the-unknown_master.wav" />
+              <source src="Music/a-fairytale-of-the-unknown_master.wav" />
             </audio>
             <a
               className="flex justify-center mb-1"
