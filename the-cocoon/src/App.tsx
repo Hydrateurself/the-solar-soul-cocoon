@@ -69,9 +69,11 @@ function App() {
             <h2 className="text-white font-ibm text-center p-4">
               A Fairytale Of The Unknown
             </h2>
-            <audio controls className="flex justify-center">
-              <source src="Music/a-fairytale-of-the-unknown_master.wav" />
-            </audio>
+            <div className="flex justify-center">
+              <audio controls>
+                <source src="Music/a-fairytale-of-the-unknown_master.wav" />
+              </audio>
+            </div>
             <a
               className="flex justify-center mb-1"
               href="/public/Music/a-fairytale-of-the-unknown_master.wav"
