@@ -3,7 +3,7 @@ import "./index.css";
 function App() {
   return (
     <>
-      <div className="bg-black h-auto w-full flex flex-col items-center">
+      <div className="bg-black h-auto w-full flex flex-col items-center md:h-auto">
         <h1 className="text-white flex h-auto w-auto p-4 font-ultra text-2xl text-center md:text-4xl">
           The Solar Soul Cocoon
         </h1>
